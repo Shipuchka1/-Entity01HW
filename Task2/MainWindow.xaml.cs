@@ -42,6 +42,8 @@ namespace AdoNetHW3
         {
             TablesManufacturer t = (TablesManufacturer)DataWrapPanel.DataContext;
 
+
+
             try
             {
                 db.Entry(t).State = EntityState.Modified;
